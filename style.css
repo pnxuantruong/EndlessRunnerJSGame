@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Creepster', cursive;
+}
+
+#player,
+#cityLayer1,
+#cityLayer2,
+#cityLayer3,
+#cityLayer4,
+#cityLayer5,
+#forestLayer1,
+#forestLayer2,
+#forestLayer3,
+#forestLayer4,
+#forestLayer5,
+#enemy_bat_1,
+#enemy_bat_2,
+#enemy_bat_3,
+#enemy_fly,
+#enemy_ghost_1,
+#enemy_ghost_2,
+#enemy_ghost_3,
+#enemy_ghost_4,
+#enemy_digger,
+#enemy_ground_zombie,
+#enemy_hand,
+#enemy_plant,
+#enemy_worm,
+#enemy_zombie,
+#enemy_raven,
+#enemy_spider_big,
+#enemy_spider,
+#enemy_spinner,
+#fire,
+#collisionAnimation,
+#lives,
+#heart,
+#background_track,
+#win_sound,
+#lose_sound
+{
+    display: none;
+}
+
+
+button {
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5;
+    background-color: rgb(28, 189, 50);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+    ;
+}
+
+#startButton:hover {
+    background-color: rgb(51, 247, 77);
+}
+
+#startButton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+#settingsButton{
+    position: absolute;
+    font-family: 'Creepster', cursive;
+    padding: 0;
+    top: 15%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    border: none;
+    background: none;
+}

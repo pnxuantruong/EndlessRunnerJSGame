@@ -1,0 +1,9 @@
+more enemy types - unfinished
+change background - unfinished
+responsive app - unfinished
+{
+    full - screen: unfinished
+    luôn nằm ngang: unfinished
+    direction circle: unfinished
+}
+sound & music: unfinished

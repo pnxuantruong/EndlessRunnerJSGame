@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Runner Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="canvas1"></canvas>
+    <img id="player" src="./assets/img/player.png">
+
+    <img id="cityLayer1" src="./assets/img/CityBackground/layer-1.png">
+    <img id="cityLayer2" src="./assets/img/CityBackground/layer-2.png">
+    <img id="cityLayer3" src="./assets/img/CityBackground/layer-3.png">
+    <img id="cityLayer4" src="./assets/img/CityBackground/layer-4.png">
+    <img id="cityLayer5" src="./assets/img/CityBackground/layer-5.png">
+
+    <img id="forestLayer1" src="./assets/img/ForestBackground/layer-1.png">
+    <img id="forestLayer2" src="./assets/img/ForestBackground//layer-2.png">
+    <img id="forestLayer3" src="./assets/img/ForestBackground//layer-3.png">
+    <img id="forestLayer4" src="./assets/img/ForestBackground//layer-4.png">
+    <img id="forestLayer5" src="./assets/img/ForestBackground//layer-5.png">
+
+    <img id="enemy_bat_1" src="./assets/img/enemies/bat/enemy_bat_1.png">
+    <img id="enemy_bat_2" src="./assets/img/enemies/bat/enemy_bat_2.png">
+    <img id="enemy_bat_3" src="./assets/img/enemies/bat/enemy_bat_3.png">
+    <img id="enemy_fly" src="./assets/img/enemies/fly/enemy_fly.png">
+    <img id="enemy_ghost_1" src="./assets/img/enemies/ghost/enemy_ghost_1.png">
+    <img id="enemy_ghost_2" src="./assets/img/enemies/ghost/enemy_ghost_2.png">
+    <img id="enemy_ghost_3" src="./assets/img/enemies/ghost/enemy_ghost_3.png">
+    <img id="enemy_ghost_4" src="./assets/img/enemies/ghost/enemy_ghost_4.png">
+    <img id="enemy_digger" src="./assets/img/enemies/groundEnemies/enemy_digger.png">
+    <img id="enemy_ground_zombie" src="./assets/img/enemies/groundEnemies/enemy_ground_zombie.png">
+    <img id="enemy_hand" src="./assets/img/enemies/groundEnemies/enemy_hand.png">
+    <img id="enemy_plant" src="./assets/img/enemies/groundEnemies/enemy_plant.png">
+    <img id="enemy_worm" src="./assets/img/enemies/groundEnemies/enemy_worm.png">
+    <img id="enemy_zombie" src="./assets/img/enemies/groundEnemies/enemy_zombie.png">
+    <img id="enemy_raven" src="./assets/img/enemies/raven/enemy_raven.png">
+    <img id="enemy_spider_big" src="./assets/img/enemies/spider/enemy_spider_big.png">
+    <img id="enemy_spider" src="./assets/img/enemies/spider/enemy_spider.png">
+    <img id="enemy_spinner" src="./assets/img/enemies/spinner/enemy_spinner.png">
+
+    <img id="fire" src="./assets/img/fire.png">
+    <img id="collisionAnimation" src="./assets/img/boom.png">
+
+    <img id="heart" src="./assets/img/Lives/heart.png">
+    <img id="lives" src="./assets/img/Lives/lives.png">
+
+    <audio id="background_track" controls src="./assets/tracks/background_track.ogg" loop="true" autoplay="'false"></audio> 
+    <audio id="win_sound" controls src="./assets/tracks/win.mp3"></audio> 
+    <audio id="lose_sound" controls src="./assets/tracks/lose.ogg"></audio> 
+
+    <button id="startButton">Start Game</button>
+    <!-- <button id="settingsButton">&#8801;</button> -->
+
+    
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
