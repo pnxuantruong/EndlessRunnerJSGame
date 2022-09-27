@@ -54,7 +54,6 @@ window.addEventListener('load', function () {
         enter() {
             this.backgroundTrack.play();
             this.time = 0;
-            this.backgroundTrack.pause();
         }
         update(deltaTime) {
             if (!this.pause) {
